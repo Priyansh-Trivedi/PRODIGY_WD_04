@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyansh Trivedi | Front-end Developer Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- External libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+  <!-- Main script (deferred) -->
+  <script defer src="script.js"></script>
+
+  <style>
+    /* Center the contact form */
+    #contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ═════════════ HEADER / NAVIGATION ═════════════ -->
+  <header class="header shadow-sm">
+    <nav class="container flex items-center justify-between py-8">
+      <a href="#home" class="logo text-lg font-semibold">Priyansh&nbsp;Trivedi</a>
+
+      <ul class="nav-links flex gap-16" aria-label="Primary">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="btn btn--outline btn--sm" aria-label="Toggle theme"
+        title="Toggle light / dark theme">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ═════════════ HERO SECTION ═════════════ -->
+    <section id="home" class="hero container flex flex-col items-center justify-center gap-16 py-16">
+      <div class="profile-placeholder" aria-hidden="true"></div>
+
+      <h1 class="text-center">
+        Hi, I’m Priyansh Trivedi,<br />
+        <span id="typewriter" class="typewriter"></span>
+      </h1>
+      <p class="subtitle text-center">I craft delightful, user-centric web experiences.</p>
+    </section>
+
+    <!-- ═════════════ ABOUT SECTION ═════════════ -->
+    <section id="about" class="container py-16">
+      <h2>About Me</h2>
+      <p>
+        Passionate front-end developer with a knack for turning ideas into
+        pixel-perfect, accessible interfaces.
+      </p>
+
+      <h3 id="education-heading" class="mt-8 mb-8"></h3>
+      <ul id="timeline" class="timeline flex flex-col gap-8"></ul>
+    </section>
+
+    <!-- ═════════════ PROJECTS SECTION ═════════════ -->
+    <section id="projects" class="container py-16">
+      <h2>Projects</h2>
+      <div class="projects-container grid gap-16 mt-8"></div>
+    </section>
+
+    <!-- ═════════════ SKILLS SECTION ═════════════ -->
+    <section id="skills" class="container py-16">
+      <h2>Skills</h2>
+      <ul id="skills-list" class="skills-list flex flex-col gap-16 mt-8"></ul>
+    </section>
+
+    <!-- ═════════════ CONTACT SECTION ═════════════ -->
+    <section id="contact" class="container py-16">
+      <h2 class="text-center">Contact</h2>
+      <form id="contact-form" class="mt-8" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input id="name" name="name" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input id="email" name="email" type="email" class="form-control" required />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary">Send Message</button>
+        <p id="form-msg" class="mt-8 hidden" role="alert"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- ═════════════ FOOTER ═════════════ -->
+  <footer class="container py-16 text-center">
+    <p>&copy; 2025 Priyansh Trivedi &nbsp;JS.</p>
+  </footer>
+</body>
+
+</html>

@@ -3,38 +3,42 @@ const data = {
     headlineWords: ["Frontend Developer", "JavaScript Enthusiast", "UI/UX Lover"],
     timeline: [
         {
-            year: "2023-2025",
-            description: "Frontend Engineer at TechCorp, building React apps"
+            year: "2023-2027",
+            description: "B.Tech (Computer Engineering) Silver Oak Univerity Ahmedabad"
         },
         {
-            year: "2021-2023",
-            description: "B.Sc. Computer Science, State University"
+            year: "2024-2025",
+            description: "E-Cell Member ,  Collaborated with teams to plan workshops, speaker sessions, and innovation-driven activities."
         },
         {
-            year: "2020",
-            description: "Freelance web projects for local businesses"
+            year: "2024-2025",
+            description: "Ignite member"
+        },
+        {
+            year:"2025",
+            description:"Intern - Prodigy , Completed a 1-month remote internship focused on frontend development."
         }
     ],
     projects: [
         {
             title: "Portfolio Website",
             tech: "HTML • CSS • JS",
-            live: "https://example.com",
-            github: "https://github.com/username/portfolio",
+            live: "https://priyansh-trivedi.github.io/PRODIGY_WD_04/",
+            github: "https://github.com/Priyansh-Trivedi/PRODIGY_WD_04.git",
             image: "assets/project1.jpg"
         },
         {
-            title: "Weather App",
-            tech: "React • OpenWeather API",
-            live: "https://example.com/weather",
-            github: "https://github.com/username/weather-app",
+            title: "StopWatch Web application",
+            tech: "HTML • CSS • JS",
+            live: "https://priyansh-trivedi.github.io/PRODIGY_WD_02/",
+            github: "https://github.com/Priyansh-Trivedi/PRODIGY_WD_02.git",
             image: "assets/project2.jpg"
         },
         {
-            title: "Task Manager",
-            tech: "Vue • Firebase",
-            live: "https://example.com/tasks",
-            github: "https://github.com/username/task-manager",
+            title: "Tic-Tac-Toe Web Application",
+            tech: "HTML • CSS • JS",
+            live: "https://priyansh-trivedi.github.io/PRODIGY_WD_03/",
+            github: "https://github.com/Priyansh-Trivedi/PRODIGY_WD_03.git",
             image: "assets/project3.jpg"
         }
     ],
